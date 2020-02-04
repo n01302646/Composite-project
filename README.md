@@ -37,4 +37,5 @@ A _simple_ template for _simple_ html/css [projects]
     -Limiting colours (by number and strength)
     - Embellishments (border lines, drop shadows)
     - Using CSS variabes to store common colours, fonts, values
+    - Font
 
