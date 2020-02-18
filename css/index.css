@@ -64,11 +64,3 @@
     text-align: center;
     border-radius: 2em;
  }
- .dest-menu{
-    {
-        display: grid;
-        grid-template-columns: auto auto auto auto auto auto auto;
-        list-style-type: none;
-       
-    }
- }
