@@ -1,19 +1,74 @@
+*{
+    font-family: 'Didact Gothic', sans-serif;
+}
 .header-container{
-  display: grid;
+    display: grid;
     grid-gap: 10px;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 43% auto 25%;
     background-color: #fff;
     color: #444;
   }
   
-  .header-box {
-    background-color: #444;
-    color: #fff;
+.header-box {   
     border-radius: 5px;
-    padding: 20px;
-    font-size: 150%;
-  }
-  .header-logo{
-    height: 1.5em; 
+    padding: 0.5em;
+    padding-bottom: 0.2em;
+}
+.header-logo{
+    height: 2em; 
     margin-left:2em;
     }
+.header-social-logo{
+    height: 1.5em;   
+ }
+.login-box{
+    border:0.2px solid whitesmoke;
+    box-shadow: 3px 3px 3px 3px #888888;
+    font-size: 1em;
+    text-align: center;
+    border-radius: 0.2em;
+    margin-right:1.4em;
+}
+.login-box a{
+    text-decoration: none;
+    font-size: 1.0em;
+ }
+.nav-container{
+    border:0.2px solid whitesmoke;
+    background-color: #FFEFAC;
+    margin: 0 2em 0 2em;
+    text-align: center;
+    border-radius: 0.7em;
+    padding:0;
+}
+ .nav-menu{
+     display: grid;
+     grid-template-columns: auto auto auto auto auto auto auto;
+     list-style-type: none;
+    
+ }
+ .nav-menu a{
+     text-decoration: none;
+     color: black;
+ }
+ .search-wrapper{
+     background-color: #BCE9F6;
+     margin:0.5em 2em 0.3em 2em;
+     border-radius: 0.7em;
+ }
+ .popular-dest-bar
+ {
+    border:0.2px solid whitesmoke;
+    background-color: #F7A1FD;
+    margin: 0 3em 0 3em;
+    text-align: center;
+    border-radius: 2em;
+ }
+ .dest-menu{
+    {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto;
+        list-style-type: none;
+       
+    }
+ }
