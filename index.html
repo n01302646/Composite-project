@@ -6,11 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home: airbnb</title>
     <meta name="author" content="Jobanjit Singh - N01302646">
-    <meta name="Airbnb"
-        content="This site will let people search and book places to stay once completed. 
+    <meta name="Airbnb" content="This site will let people search and book places to stay once completed. 
         Users can input the details and results wil be shown corosponding to  search keywords.
         It also provides travel guide.">
-        <link href="https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap" rel="stylesheet">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/default.css">
@@ -18,58 +17,81 @@
 </head>
 
 <body>
-<header>
-    <div class="header-container">
-        <div class="header-box">
-            <img src="img/Airbnb_Logo.svg" alt="Airbnb_Logo" class='header-logo'>
-        </div>
-        <div class="header-box">
-            <a href="#"> <img src="img/sm4.svg" alt="facebook" class='header-social-logo'></a>          
-           <a href="#" > <img src="img/sm3.svg" alt="youtube" class='header-social-logo'></a>
-           <a href="#"><img src="img/sm2.svg" alt="twitter" class='header-social-logo'></a>
-           <a href="#"> <img src="img/sm1.svg" alt="instagram" class='header-social-logo'></a>
-               
-        </div>
-        <div class="header-box">
-            <div class='login-box'>
-                <a href="#">Login</a> <span>or</span> <a href="#">Create Account</a>
+    <header>
+        <div class="header-container">
+            <div class="header-box">
+                <img src="img/Airbnb_Logo.svg" alt="Airbnb_Logo" class='header-logo'>
+            </div>
+            <div class="header-box">
+                <a href="#"> <img src="img/sm4.svg" alt="facebook" class='header-social-logo'></a>
+                <a href="#"> <img src="img/sm3.svg" alt="youtube" class='header-social-logo'></a>
+                <a href="#"><img src="img/sm2.svg" alt="twitter" class='header-social-logo'></a>
+                <a href="#"> <img src="img/sm1.svg" alt="instagram" class='header-social-logo'></a>
+
+            </div>
+            <div class="header-box">
+                <div class='login-box'>
+                    <a href="#">Login</a> <span>or</span> <a href="#">Create Account</a>
+                </div>
             </div>
         </div>
-    </div>
 
-    <nav>
-        <div class='nav-container'>
-        <ul class='nav-menu'>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Account</a></li>
-                <li><a href="#">Help</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Search booking</a></li>
-                <li><a href="#">Host a home</a></li>
-                <li><a href="#">Host Experience</a></li>
-            </ul>
-        </div>
-    </nav>    
-</header>
-
-<main>
-    <div class='search-wrapper'>
-        <div class='popular-dest-bar'>
-            <ul class='dest-menu'>
-                   <span>Popular Destination</span>
-                    <li><a href="#">Toronto</a></li>
+        <nav>
+            <div class='nav-container'>
+                <ul class='nav-menu'>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Account</a></li>
                     <li><a href="#">Help</a></li>
                     <li><a href="#">Contact</a></li>
                     <li><a href="#">Search booking</a></li>
                     <li><a href="#">Host a home</a></li>
                     <li><a href="#">Host Experience</a></li>
-            </ul>
-        </div>
-            
-    </div>
-</main>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-<footer></footer>
+    <main>
+        <div class='search-wrapper'>
+            <div class='popular-dest-bar'>
+                <ul class='dest-menu'>
+                    <li><a href="#"><strong> Popular Destinations</strong></a><p>US & CANADA</p></li>
+                    <li><a href="#">Toronto </a><p>(Avg 105$/Night)</p></li>
+                    <li><a href="#">Montreal </a><p>(Avg 87$/Night)</p></li>
+                    <li><a href="#">Los Angeles </a><p>(Avg 204$/Night)</p></li>
+                    <li><a href="#">Las Vegas </a><p>(Avg 299$/Night)</p></li>
+                </ul>
+            </div>
+            <div class='search-head'>
+                <h2>LETS MAKE YOUR TRIP</h2>
+            </div>
+            <div class='input-search-wrapper'>
+                <div class='input-div'>
+                    <p>WHERE</p>
+                    <input type="text"  class='input-field where'>
+                </div>
+                <div class='input-div'>
+                    <p>CHECK-IN</p>
+                    <input type="date" name="check-in" class='input-field'>
+                </div>
+                <div class='input-div'>
+                    <p>CHECK-OUT</p>
+                    <input type="date" name="check-out" class='input-field'>
+                </div>
+                <div class='input-div'>
+                    <p>GUESTS</p>
+                    <input type="text" maxlength="2" class='input-field'>
+                </div>
+            </div>
+            <div class='search-button-div'>
+               <input type="button" value="Search" class='search-button'>
+            </div>   
+        </div>
+
+        
+    </main>
+
+    <footer></footer>
 </body>
 
 </html>
