@@ -156,6 +156,11 @@ text-align: center;
     color: #645F5F;
     margin-top: 0.2em;
 }
+.le-text h2{
+    color: #645F5F;
+    margin-top: 0.2em;
+    margin-left:2em;
+}
 .offer-button{
     width:12em;
     background-color: #FCFCFC;
@@ -194,14 +199,19 @@ text-align: center;
 }
 .lets-explore-wrapper{ 
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 2em;
+    grid-template-columns: 28% 28% 28%;
+    grid-gap: 4em;
+    margin-left:3em;
 }
 .le-outer{
     background-color: #FCFCFC;
-    border-radius: 1em;
-    height:2em;
+    border-radius: 0.3em;
+    border:1px solid black;
+    height:4.5em;
 }
 
-
+.le-images
+{
+    
+}
 
