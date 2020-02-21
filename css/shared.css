@@ -8,7 +8,9 @@
     background-color: #fff;
     color: #444;
   }
-  
+  .mobile-container{
+      display: none;
+  }
 .header-box {   
     border-radius: 5px;
     padding: 0.5em;
@@ -95,6 +97,65 @@
 
 /*Media Query*/
 @media only screen and (max-width: 600px){
+    /*Mobile navigation starts (Source:w3schools.com)*/
+    .nav-container{
+        display: none;
+    }
+   
+    .mobile-container {
+        display: block;
+        margin:0.2em 2em 0.2em 2em;
+        background-color:#FFEFAC;
+        color: Black;
+        border-radius: 10px;
+      }
+      
+      .topnav {
+        overflow: hidden;
+        background-color: #BCE9F6;
+        position: relative;
+        border-radius: 0.3em;
+      }
+      
+      .topnav #myLinks {
+        display: none;
+        text-align: right;
+      }
+      .active {
+        background-color: #FFEFAC;
+        color: white;
+      }
+      .welcome-note{
+          color: #ff5a5f;
+      }
+     
+      .topnav a {
+        color: black;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      
+      .topnav a.icon {
+        background: #FFEFAC;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      
+      .topnav a:hover {
+        background-color: #ff5a5f;
+        color: black;
+      }
+      
+      .active {
+        background-color: #FFEFAC;
+        color: white;
+      }
+
+/*Mobile Navigation css ends*/
  .header-container{
      grid-template-columns:50% auto;
  }

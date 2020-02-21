@@ -14,6 +14,18 @@
     <link rel="stylesheet" href="css/shared.css">
     <link rel="stylesheet" href="css/unit-details.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- For Mobile Navigaiton (Source:w3schools.com)-->
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
+
 </head>
 
 <body>
@@ -38,6 +50,27 @@
         </div>
 
         <nav>
+             <!-- Mobile Navigation Menu hidden in desktop version (Source:w3schools.com)-->
+            <div class="mobile-container">               
+                <div class="topnav">
+                  <a href="index.html" class="active"><strong class="welcome-note">Welcome to AirBnb World ! </strong> </a>
+                  <div id="myLinks">
+                   
+                    <a href="index.html">Home</a>
+                    <a href="#">Listing</a>
+                    <a href="#">Help</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Search booking</a>
+                    <a href="#">Host a home</a>
+                    <a href="#">Host Experience</a>
+                </ul>
+                  </div>
+                  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                  </a>
+                </div>
+            </div>
+            <!-- Mobile Navigation div ends-->
             <div class='nav-container'>
                 <ul class='nav-menu'>
                     <li><a href="#">Home</a></li>

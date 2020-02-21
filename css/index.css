@@ -360,12 +360,6 @@ text-align: center;
  .success-stories-wrapper,.input-search-wrapper,.stay-categories,.super-offers-wrapper-headings{
         grid-template-columns: 1fr 1fr;      
     }
-    .travel-guide-text,.travel-guide-cards-wrapper,.lets-explore-wrapper{
-        
-    }
-    .text-facts h3,.popular-dest-bar{
-        
-    }
     .ss-text{
        text-align: center;
     }
