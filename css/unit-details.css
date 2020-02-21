@@ -13,6 +13,7 @@
 .heading h2
 {
     margin:0;
+    color: white;
 }
 .pic-grid-wrapper{  
     border: 2px solid #CCC;
@@ -125,10 +126,22 @@ margin-bottom:0.1em;
 .comment-block{
     margin-top:1.5em;
 }
-
-
-
-
+.ratings-wrapper,.rate-head{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #BCE9F6;
+    margin:0.1em 2em 0.2em 2em;
+    border-radius: 0.4em;
+}
+.ratings-wrapper div{
+    margin-left: 3em;;
+}
+.rate-head{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.rate-head h1{
+    margin-left:3em;
+}
 
 
 
