@@ -1,12 +1,15 @@
 *{
-    font-family: 'Didact Gothic', sans-serif;
-   
+    font-family: 'Didact Gothic', sans-serif;   
 }
 p
 {
       margin:0;
       padding:0;
-  }
+}
+html{
+    background-color:;
+}
+ 
 .header-container{
     display: grid;
     grid-gap: 10px;
@@ -291,9 +294,119 @@ text-align: center;
     margin-bottom:0.2em;
 }
 
+.success-stories-wrapper{
+    display: grid;
+    grid-template-columns: 33% auto;
+    border-radius: 0.3em;
+    margin:0.5em 2em 0.2em 2em;
+}
+.ss-left-wrapper{
+    background-color: #BCE9F6;
+}
+.logo-in-ss{
+    height: 5em;
+    margin-left: 10.5em;
+    margin-top:2em;
+}
+.ss-text{
+    background-color:#FF6B6B;
+    margin-left:5.5em;
+    width: 15em;
+    padding: 2em;
+    text-align: left;
+}
+.ss-text h2{
+    margin:0;
+    font-size:2em;
+    font-weight: 600;
+}
+.ss-text h3{
+    margin:0;
+    font-size:4em;
+}
+.ss-text p{
+    font-size:1.2em;
+}
+.ss-right-wrapper{  
+    border: 2px solid #CCC;
+    display: grid;
+    grid-gap: 0.4em;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(3,10rem);
+    justify-content: center;
+    align-content: end;
+    text-align: center;
+}
+
+.ss{
+    color: #fff;
+    border-radius: 0.2em;
+    padding: 2em;
+    font-size: 150%;
+  }
+  
+  .item1 {
+    grid-column: 1 / 5;
+    background-color: #FFBD4A;
+    
+  }
+  
+  .item2 {
+    grid-column: 1 / 3;
+    grid-row: 2 / 4;
+    background-color: #C358ED;
+  }
+  
+  .item3 {
+    grid-column: 3 / 5;
+    background-color: #44D9E6;
+    padding:1em;
+  }
+  .item4{
+      background-color: #70D9B8;
+      vertical-align: top;
+      padding:0;
+  }
+  .item5{
+    background-color: #2EB2FF;
+    padding:0;
+}
 
 
+.footer-wrapper{
+    background-color: #FFEFAC;
+    margin: 0.2em 2em 0em 2em;
+    }
+.footer-links-tab{
+    display: grid;
+    grid-template-columns: 40% 5% 5%;
+    grid-gap: 10em;    
+}
+.get-link-block{
+    display: grid;
+    grid-template-columns: 80% auto;
+    background-color: #BCE9F6;
+    margin-left:4em;
+    margin-top:2em;
+    padding:1em;
+}
+.phone-input{
+    width:5em;
+    margin-top:0.3em;
+}
+.get-phone-input{
+    padding:0.3em;
+    margin-right:0.1em; 
+}
+.flink{
+    margin-top:1.2em;
+}
+.flink a{ 
+  text-decoration: none;
+}
 
-
-
-
+.footer-social-tab{
+    display: grid;
+    grid-template-columns:70% auto;
+    margin-top:1em;
+}
