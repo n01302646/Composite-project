@@ -174,7 +174,7 @@ text-align: center;
     background-image: url('../img/facts-bg1.png');
     background-repeat: no-repeat;
     display: grid;
-    grid-template-columns: 50% 38% auto;
+    grid-template-columns: 50% 38%;
     margin:3em 2em 0em 2em;
     border-radius: 0.7em;
 }
