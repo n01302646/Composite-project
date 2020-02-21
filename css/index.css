@@ -318,5 +318,37 @@ text-align: center;
     padding:0;
 }
 
-
-
+/*Media queries*/
+@media only screen and (max-width: 600px){
+    .travel-guide-text,.success-stories-wrapper,.travel-guide-cards-wrapper,.input-search-wrapper,.stay-categories,.super-offers-wrapper-headings,.lets-explore-wrapper{
+        grid-template-columns: 1fr;      
+    }
+    .text-facts h3,.popular-dest-bar{
+        display: none;
+    }
+    .ss-right-wrapper h2{
+        font-size: 0.9em;
+    }
+    .lets-explore-wrapper{
+        margin-left:2em;
+        margin-right:2em;
+    }
+    .stay{
+        margin-left:2em;
+    }
+    .stay-categories p {
+        margin-left: 6em;
+    }
+    .super-offers-wrapper-headings,.travel-guide-text{
+        text-align: center;
+    }
+    .travel-guide-cards-wrapper{
+        margin-left:0em;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    .le-text{
+        margin-left:0;
+        text-align: center;
+    }
+}
