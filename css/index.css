@@ -319,12 +319,15 @@ text-align: center;
 }
 
 /*Media queries*/
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 800px){
     .travel-guide-text,.success-stories-wrapper,.travel-guide-cards-wrapper,.input-search-wrapper,.stay-categories,.super-offers-wrapper-headings,.lets-explore-wrapper{
         grid-template-columns: 1fr;      
     }
     .text-facts h3,.popular-dest-bar{
         display: none;
+    }
+    .ss-text{
+       text-align: center;
     }
     .ss-right-wrapper h2{
         font-size: 0.9em;
@@ -334,7 +337,47 @@ text-align: center;
         margin-right:2em;
     }
     .stay{
+        margin-left:15%;
+    }
+    .stay-categories p {
+        margin-left: 6em;
+    }
+    .super-offers-wrapper-headings,.travel-guide-text{
+        text-align: center;
+    }
+    .travel-guide-cards-wrapper{
+        margin-left:0em;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    .le-text{
+        margin-left:0;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:801px) and (max-width: 1100px){
+ .success-stories-wrapper,.input-search-wrapper,.stay-categories,.super-offers-wrapper-headings{
+        grid-template-columns: 1fr 1fr;      
+    }
+    .travel-guide-text,.travel-guide-cards-wrapper,.lets-explore-wrapper{
+        
+    }
+    .text-facts h3,.popular-dest-bar{
+        
+    }
+    .ss-text{
+       text-align: center;
+    }
+    .ss-right-wrapper h2{
+        font-size: 0.9em;
+    }
+    .lets-explore-wrapper{
         margin-left:2em;
+        margin-right:2em;
+    }
+    .stay{
+        margin-left:15%;
     }
     .stay-categories p {
         margin-left: 6em;

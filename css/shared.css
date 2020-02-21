@@ -91,3 +91,26 @@
     grid-template-columns:70% auto;
     margin-top:1em;
 }
+
+
+/*Media Query*/
+@media only screen and (max-width: 600px){
+ .header-container{
+     grid-template-columns:50% auto;
+ }
+ .hbsocial{
+    display: none;
+ }
+ .footer-links-tab{
+    grid-template-columns: 10% 10%;
+    grid-gap: 8em;
+    margin-left: 15%;
+}
+ .get-link-block{
+     display: none;
+ }
+ .footer-social-tab{
+     grid-template-columns: 1fr;
+     text-align: center;
+ }
+}
